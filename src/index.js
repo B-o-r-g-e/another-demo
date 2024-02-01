@@ -21,7 +21,14 @@ function navSection() {
 }
 
 function heroSection() {
+    const heroFront = document.createElement('div')
+    heroFront.className = 'hero-front'
+
+    const wholeHeroContent = document.createElement('div')
+    wholeHeroContent.className = 'whole-hero-content'
+
 
 }
 
 navSection()
+heroSection()
