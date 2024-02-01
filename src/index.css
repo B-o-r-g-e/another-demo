@@ -53,5 +53,9 @@ body {
     color: white;
 }
 
-
+.btn:hover {
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background-color: #228d70;
+}
 
