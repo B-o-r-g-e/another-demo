@@ -2,11 +2,13 @@ const content = document.getElementById('content')
 
 export function navSection() {
     const nav = document.createElement('nav')
+    nav.className = 'nav'
 
     const navContent = document.createElement('div')
     navContent.className = 'nav-content'
 
     const logo = document.createElement('h2')
+    logo.className = 'logo'
     logo.textContent = `logo`
 
     const getStarted = document.createElement('button')
