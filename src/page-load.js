@@ -74,7 +74,7 @@ export function heroSection() {
     const searchBox = document.createElement('div')
     searchBox.className = 'search-box'
 
-    const form = document.createElement('form')
+    const form = document.createElement('div')
     form.innerHTML = `<form action="/search" method="GET">
                             <input type="text" id="searchInput" name="q" placeholder="what's your address">
                         </form>`
