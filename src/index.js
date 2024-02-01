@@ -1,4 +1,4 @@
-import {content, heroSection, navSection} from "./page-load";
+import {heroSection, navSection} from "./page-load";
 
 
 navSection()

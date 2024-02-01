@@ -1,4 +1,4 @@
-export const content = document.getElementById('content')
+const content = document.getElementById('content')
 
 export function navSection() {
     const nav = document.createElement('nav')
@@ -11,6 +11,18 @@ export function navSection() {
 
     const getStarted = document.createElement('button')
     getStarted.textContent = `get started`
+
+    const contactMenu = document.createElement('div')
+    contactMenu.className = 'contact-menu'
+
+    const contact = document.createElement('button')
+    contact.className = 'contact'
+
+    const menu = document.createElement('button')
+    menu.className = 'menu'
+
+    contactMenu.appendChild(menu)
+    contactMenu.appendChild(contact)
 
     navContent.appendChild(logo)
     navContent.appendChild(getStarted)
