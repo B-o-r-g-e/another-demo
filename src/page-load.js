@@ -47,10 +47,16 @@ export function heroSection() {
 
     const animation = document.createElement('div')
     animation.className = 'animation'
-    animation.innerHTML = `<img src="../assets/food.png" alt="">`
+
+    const foodImage = document.createElement('div')
+    foodImage.className = 'food-image'
+    foodImage.innerHTML = `<img src="../assets/food.png" alt="">`
 
     const heroRight = document.createElement('div')
     heroRight.className = 'hero-right'
+
+    const heroRightContent = document.createElement('div')
+    heroRightContent.className = 'hero-right-content'
 
     const heroRightH1 = document.createElement('h1')
     heroRightH1.textContent = `Food delivery and more`
@@ -77,9 +83,13 @@ export function heroSection() {
     searchPart.appendChild(searchLeftIcon)
     searchPart.appendChild(searchBox)
 
-    heroRight.appendChild(heroRightH1)
-    heroRight.appendChild(heroRightParagraph)
-    heroRight.appendChild(searchPart)
+    heroRightContent.appendChild(heroRightH1)
+    heroRightContent.appendChild(heroRightParagraph)
+    heroRightContent.appendChild(searchPart)
+
+    animation.appendChild(foodImage)
+
+    heroRight.appendChild(heroRightContent)
 
     wholeHeroContent.appendChild(animation)
     wholeHeroContent.appendChild(heroRight)

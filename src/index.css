@@ -68,4 +68,30 @@ body {
 .whole-hero-content {
     display: flex;
     align-items: center;
+    gap: 20px;
+}
+
+.animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-image img {
+    height: 90%;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-right h1 {
+    word-wrap: anywhere;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.07;
+    margin: 32px;
+    color: black;
 }
