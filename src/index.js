@@ -27,6 +27,10 @@ function heroSection() {
     const wholeHeroContent = document.createElement('div')
     wholeHeroContent.className = 'whole-hero-content'
 
+    const animation = document.createElement('div')
+    animation.className = 'animation'
+    animation.innerHTML = `<img src="../assets/food.png" alt="">`
+
 
 }
 
