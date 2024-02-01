@@ -52,8 +52,24 @@ function heroSection() {
 
     const form = document.createElement('form')
     form.innerHTML = `<form action="/search" method="GET">
-                                <input type="text" id="searchInput" name="q" placeholder="what's your address">
-                            </form>`
+                            <input type="text" id="searchInput" name="q" placeholder="what's your address">
+                        </form>`
+
+    searchBox.appendChild(form)
+    searchPart.appendChild(searchLeftIcon)
+    searchPart.appendChild(searchBox)
+
+    heroRight.appendChild(heroRightH1)
+    heroRight.appendChild(heroRightParagraph)
+    heroRight.appendChild(searchPart)
+
+    wholeHeroContent.appendChild(animation)
+    wholeHeroContent.appendChild(heroRight)
+
+    heroFront.appendChild(wholeHeroContent)
+
+    content.appendChild(heroFront)
+
 }
 
 navSection()
