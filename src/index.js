@@ -31,6 +31,22 @@ function heroSection() {
     animation.className = 'animation'
     animation.innerHTML = `<img src="../assets/food.png" alt="">`
 
+    const heroRight = document.createElement('div')
+    heroRight.className = 'hero-right'
+
+    const heroRightH1 = document.createElement('h1')
+    heroRightH1.textContent = `Food delivery and more`
+
+    const heroRightParagraph = document.createElement('p')
+    heroRightParagraph.textContent = `Groceries, shops, pharmacies, anything!`
+
+    const searchPart = document.createElement('div')
+    searchPart.className = 'search-part'
+
+    const searchLeftIcon = document.createElement('div')
+    searchLeftIcon.className = 'search-left-icon'
+    searchLeftIcon.innerHTML = `<img src="https://glovoapp.com/images/icons/flag--white.svg" alt="">`
+
 
 }
 
