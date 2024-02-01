@@ -47,7 +47,13 @@ function heroSection() {
     searchLeftIcon.className = 'search-left-icon'
     searchLeftIcon.innerHTML = `<img src="https://glovoapp.com/images/icons/flag--white.svg" alt="">`
 
+    const searchBox = document.createElement('div')
+    searchBox.className = 'search-box'
 
+    const form = document.createElement('form')
+    form.innerHTML = `<form action="/search" method="GET">
+                                <input type="text" id="searchInput" name="q" placeholder="what's your address">
+                            </form>`
 }
 
 navSection()
