@@ -12,17 +12,18 @@ export function navSection() {
     logo.textContent = `logo`
 
     const getStarted = document.createElement('button')
+    getStarted.className = 'get-started btn'
     getStarted.textContent = `get started`
 
     const contactMenu = document.createElement('div')
     contactMenu.className = 'contact-menu'
 
     const contact = document.createElement('button')
-    contact.className = 'contact'
+    contact.className = 'contact btn'
     contact.textContent = `contact`
 
     const menu = document.createElement('button')
-    menu.className = 'menu'
+    menu.className = 'menu btn'
     menu.textContent = `menu`
 
     contactMenu.appendChild(menu)
