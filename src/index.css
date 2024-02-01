@@ -68,7 +68,6 @@ body {
 .whole-hero-content {
     display: flex;
     align-items: center;
-    gap: 20px;
 }
 
 .animation {
@@ -87,11 +86,31 @@ body {
     justify-content: center;
 }
 
+.hero-right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-right h1 {
     word-wrap: anywhere;
     font-size: 58px;
     font-weight: 700;
     line-height: 1.07;
-    margin: 32px;
+    margin: 32px 0;
+    width: 600px;
     color: black;
+    text-align: center;
+}
+
+.hero-right-content p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.search-part {
+    display: flex;
 }
