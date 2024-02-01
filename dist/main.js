@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log('Done')\n\n//# sourceURL=webpack://another-demo/./src/index.js?");
+eval("const content = document.getElementById('content')\n\nfunction addContentContent() {\n    const nav = document.createElement('nav')\n\n    const navContent = document.createElement('div')\n    navContent.className = 'nav-content'\n\n    const logo = document.createElement('h2')\n    logo.textContent = `logo`\n\n    const getStarted = document.createElement('button')\n    getStarted.textContent = `get started`\n\n    navContent.appendChild(logo)\n    navContent.appendChild(getStarted)\n\n    nav.appendChild(navContent)\n\n    content.appendChild(nav)\n\n    console.log('what')\n}\n\naddContentContent()\n\n//# sourceURL=webpack://another-demo/./src/index.js?");
 
 /***/ })
 

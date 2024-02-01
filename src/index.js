@@ -1,6 +1,6 @@
 const content = document.getElementById('content')
 
-function addContentContent() {
+function navSection() {
     const nav = document.createElement('nav')
 
     const navContent = document.createElement('div')
@@ -9,6 +9,19 @@ function addContentContent() {
     const logo = document.createElement('h2')
     logo.textContent = `logo`
 
+    const getStarted = document.createElement('button')
+    getStarted.textContent = `get started`
+
+    navContent.appendChild(logo)
+    navContent.appendChild(getStarted)
+
+    nav.appendChild(navContent)
+
+    content.appendChild(nav)
 }
 
-addContentContent()
+function heroSection() {
+
+}
+
+navSection()
