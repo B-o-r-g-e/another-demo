@@ -49,13 +49,23 @@ body {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     background-color: #31A082;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
 }
 
 .btn:hover {
-    font-size: 14px;
+    padding: 12px 17px;
+    font-weight: 900;
     transition: all 0.3s ease;
     background-color: #228d70;
 }
 
+.hero-front {
+    height: 100vh;
+    display: flex;
+}
+
+.whole-hero-content {
+    display: flex;
+    align-items: center;
+}
