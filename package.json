@@ -1,0 +1,23 @@
+{
+  "name": "another-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-o-r-g-e/another-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B-o-r-g-e/another-demo/issues"
+  },
+  "homepage": "https://github.com/B-o-r-g-e/another-demo#readme",
+  "devDependencies": {
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
