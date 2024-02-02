@@ -6,6 +6,14 @@ body {
     font-family:'Roboto', sans-serif;
 }
 
+.hide-content {
+    display: none;
+}
+
+.show-menu {
+    display: block;
+}
+
 #content {
     background-color: #ffc244;
     display: flex;
@@ -51,6 +59,7 @@ body {
     background-color: #31A082;
     font-weight: 700;
     color: white;
+    cursor: pointer;
 }
 
 .btn:hover {

@@ -36,6 +36,8 @@ export function navSection() {
     nav.appendChild(navContent)
 
     content.appendChild(nav)
+
+    menu.addEventListener('click', tabs)
 }
 
 export function heroSection() {
@@ -97,5 +99,20 @@ export function heroSection() {
     heroFront.appendChild(wholeHeroContent)
 
     content.appendChild(heroFront)
+}
 
+export function tabs() {
+    const menus = document.createElement('div')
+
+    const firstTab = document.createElement('div')
+    firstTab.className = 'tab'
+
+    const firstTabH1 = document.createElement('h1')
+    firstTabH1.textContent = `Tab 1 Content`
+
+    firstTab.appendChild(firstTabH1)
+    menus.appendChild(firstTab)
+
+    content.classList.add('hide-content')
+    menus.classList.add('show-menu')
 }
