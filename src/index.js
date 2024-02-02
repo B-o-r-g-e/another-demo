@@ -1,6 +1,4 @@
-import {heroSection, navSection, tabs} from "./page-load";
-
+import {heroSection, navSection} from "./page-load";
 
 navSection()
 heroSection()
-tabs()

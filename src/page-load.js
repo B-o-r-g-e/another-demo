@@ -1,6 +1,7 @@
-const content = document.getElementById('content')
 
 export function navSection() {
+    const content = document.getElementById('content')
+
     const nav = document.createElement('nav')
     nav.className = 'nav'
 
@@ -36,13 +37,13 @@ export function navSection() {
     nav.appendChild(navContent)
 
     content.appendChild(nav)
-
-    menu.addEventListener('click', tabs)
 }
 
 export function heroSection() {
+    const content = document.getElementById('content')
+
     const heroFront = document.createElement('div')
-    heroFront.className = 'hero-front'
+    heroFront.className = 'hero-front';
 
     const wholeHeroContent = document.createElement('div')
     wholeHeroContent.className = 'whole-hero-content'
@@ -101,18 +102,15 @@ export function heroSection() {
     content.appendChild(heroFront)
 }
 
-export function tabs() {
-    const menus = document.createElement('div')
-
-    const firstTab = document.createElement('div')
-    firstTab.className = 'tab'
-
-    const firstTabH1 = document.createElement('h1')
-    firstTabH1.textContent = `Tab 1 Content`
-
-    firstTab.appendChild(firstTabH1)
-    menus.appendChild(firstTab)
-
-    content.classList.add('hide-content')
-    menus.classList.add('show-menu')
-}
+// function tabs() {
+//     const menu = document.createElement('div')
+//
+//     const firstTab = document.createElement('div')
+//     firstTab.className = 'tab'
+//
+//     const firstTabH1 = document.createElement('h1')
+//     firstTabH1.textContent = `Tab 1 Content`
+//
+//     firstTab.appendChild(firstTabH1)
+//     menu.appendChild(firstTab)
+// }
