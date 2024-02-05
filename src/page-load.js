@@ -1,7 +1,6 @@
+const content = document.getElementById('contents')
 
 export function navSection() {
-    const content = document.getElementById('content')
-
     const nav = document.createElement('nav')
     nav.className = 'nav'
 
@@ -40,8 +39,6 @@ export function navSection() {
 }
 
 export function heroSection() {
-    const content = document.getElementById('content')
-
     const heroFront = document.createElement('div')
     heroFront.className = 'hero-front';
 
