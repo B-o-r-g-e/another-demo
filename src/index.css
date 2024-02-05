@@ -64,6 +64,7 @@ body {
 .hero-front {
     height: 100vh;
     display: flex;
+    background-color: #ffc244;
 }
 
 .whole-hero-content {
