@@ -36,6 +36,36 @@ export function navSection() {
     nav.appendChild(navContent)
 
     content.appendChild(nav)
+
+    function contactTabs() {
+        const contacts = document.createElement('div')
+        contacts.className = 'contacts'
+
+        const firstTab = document.createElement('div')
+        firstTab.className = 'tab'
+
+        const firstTabH1 = document.createElement('h1')
+        firstTabH1.textContent = `Tab 1 Content`
+
+        firstTab.appendChild(firstTabH1)
+        contacts.appendChild(firstTab)
+
+
+        contact.addEventListener('click', () => {
+            content.style.display = 'none'
+            contactTab.appendChild(nav)
+            contactTab.style.display = 'block'
+            contactTab.appendChild(contacts)
+        })
+
+        home.addEventListener('click', () => {
+            content.style.display = 'flex'
+            content.insertBefore(nav, content.firstChild)
+            contactTab.style.display = 'none'
+        })
+    }
+
+    contactTabs()
 }
 
 export function heroSection() {
