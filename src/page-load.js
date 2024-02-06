@@ -1,4 +1,5 @@
 const content = document.getElementById('contents')
+const contactTab = document.querySelector('.contact-tab')
 
 export function navSection() {
     const nav = document.createElement('nav')
@@ -25,6 +26,10 @@ export function navSection() {
     const menu = document.createElement('button')
     menu.className = 'menu btn'
     menu.textContent = `menu`
+
+    const home = document.createElement('button')
+    home.className = 'home btn'
+    home.textContent = `home`
 
     contactMenu.appendChild(menu)
     contactMenu.appendChild(contact)
