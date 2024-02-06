@@ -31,6 +31,7 @@ export function navSection() {
     home.className = 'home btn'
     home.textContent = `home`
 
+    contactMenu.appendChild(home)
     contactMenu.appendChild(menu)
     contactMenu.appendChild(contact)
 
@@ -71,6 +72,7 @@ export function navSection() {
     }
 
     contactTabs()
+
 }
 
 export function heroSection() {
@@ -134,15 +136,3 @@ export function heroSection() {
     content.appendChild(heroFront)
 }
 
-// function tabs() {
-//     const menu = document.createElement('div')
-//
-//     const firstTab = document.createElement('div')
-//     firstTab.className = 'tab'
-//
-//     const firstTabH1 = document.createElement('h1')
-//     firstTabH1.textContent = `Tab 1 Content`
-//
-//     firstTab.appendChild(firstTabH1)
-//     menu.appendChild(firstTab)
-// }

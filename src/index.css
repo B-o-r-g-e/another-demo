@@ -6,7 +6,7 @@ body {
     font-family:'Roboto', sans-serif;
 }
 
-#content {
+#contents {
     background-color: #ffc244;
     display: flex;
     flex-direction: column;
@@ -153,4 +153,16 @@ input::placeholder {
 
 input:active {
     border: none;
+}
+
+/*.contacts {*/
+/*    display: none;*/
+/*}*/
+
+.contact-tab {
+    display: none;
+}
+
+.show-contacts {
+    display: block;
 }
